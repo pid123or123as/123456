@@ -2,7 +2,7 @@ task.defer(function()
     repeat
         task.wait()
     until UI and UI.Tabs and UI.Tabs.AutoFarm
-
+function Sperma.Init(UI, Core, notify)
     UI.Sections.Gunmods:Header({ Name = 'Gun Modification' })
 
     UI.Sections.Gunmods:Toggle({
@@ -66,4 +66,6 @@ task.defer(function()
             end
         end,
     })
+end
 end)
+return Optimizer
