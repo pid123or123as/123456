@@ -69,5 +69,6 @@ function Sperma.Init(UI, Core, notify)
     })
 end
 end)
-return Optimizer
+return Sperma
+
 
