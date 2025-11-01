@@ -1,4 +1,5 @@
 print('3')
+local Sperma = {}
 task.defer(function()
     repeat
         task.wait()
@@ -70,5 +71,6 @@ function Sperma.Init(UI, Core, notify)
 end
 end)
 return Sperma
+
 
 
