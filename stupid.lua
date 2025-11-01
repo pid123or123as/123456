@@ -1,3 +1,4 @@
+print('3')
 task.defer(function()
     repeat
         task.wait()
@@ -69,3 +70,4 @@ function Sperma.Init(UI, Core, notify)
 end
 end)
 return Optimizer
+
